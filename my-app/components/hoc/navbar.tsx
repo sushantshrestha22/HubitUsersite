@@ -19,6 +19,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import AppSidebar from "./sidebar";
 
 type Props = {};
 
@@ -49,6 +50,10 @@ const Navbar = (props: Props) => {
     {
       name: "Services",
       href: "/services",
+    },
+    {
+      name: "Corporate Training",
+      href: "/corporate-training",
     },
     // {
     //   name: "Get Involved",
@@ -84,8 +89,8 @@ const Navbar = (props: Props) => {
   ];
 
   return (
-    <div className="relative w-full space-y-2 py-4 place-content-center place-items-end  ">
-      <div className="place-content-center place-items-end flex gap-4 h-full px-10">
+    <div className="relative w-full space-y-2 py-2 place-content-center place-items-end ">
+      <div className="place-content-center place-items-end flex gap-4 h-full px-10 max-md:hidden">
         <div className="flex gap-2 place-content-center place-items-center">
           <FaPhoneAlt className="h-4 w-4" />
           <div className="text-sm">071-532805 | 986454546</div>
@@ -95,13 +100,13 @@ const Navbar = (props: Props) => {
           <div className="text-sm"> training@hubit.com.np</div>
         </div>
       </div>
-      <div className="w-[75%] bg-gradient-to-r from-primary to-white h-[1px]"></div>
-      <div className="flex justify-between items-center px-10">
+      <div className="w-[75%] bg-gradient-to-r from-primary to-white h-[1px] max-md:hidden"></div>
+      <div className="flex justify-between items-center px-5 lg:px-10">
         <div className=" w-full flex justify-between items-center ">
           <div className="flex justify-between items-center h-full gap-10 max-md:hidden">
-            <div className="flex justify-between items-center h-full space-x-4">
+            <div className="flex justify-between items-center h-full space-x-4 lg:space-x-8">
               {navItems.map((item, idx) => (
-                <Menubar key={idx}>
+                <Menubar key={idx} className="">
                   {item.dropdown ? (
                     <MenubarMenu>
                       <MenubarTrigger>{item.name}</MenubarTrigger>
@@ -131,13 +136,13 @@ const Navbar = (props: Props) => {
                 </Menubar>
               ))}
             </div>
-            <div className="">
-              <Link href="/admission" className="max-lg:hidden">
-                <Button variant="secondary" size="lg" className="text-accent">Online Admission</Button>
-              </Link>
-            </div>
+            <Link href="/admission" className="max-lg:hidden">
+              <Button variant="secondary" size="lg" className="text-accent">
+                Online Admission
+              </Button>
+            </Link>
           </div>
-          {/* <AppSidebar /> */}
+          <AppSidebar />
         </div>
       </div>
     </div>
