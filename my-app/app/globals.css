@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
+
 
 @layer base {
   :root {
