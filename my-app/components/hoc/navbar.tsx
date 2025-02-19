@@ -89,19 +89,19 @@ const Navbar = (props: Props) => {
   ];
 
   return (
-    <div className="relative w-full space-y-2 py-2 place-content-center place-items-end ">
-      <div className="place-content-center place-items-end flex gap-4 h-full px-10 max-md:hidden">
+    <div className="relative w-full md:space-y-3 py-3 place-content-center place-items-end ">
+      <div className="place-content-center place-items-end flex gap-4 h-full px-10 lg:px-20 max-md:hidden">
         <div className="flex gap-2 place-content-center place-items-center">
-          <FaPhoneAlt className="h-4 w-4" />
-          <div className="text-sm">071-532805 | 986454546</div>
+          <FaPhoneAlt className="h-3 w-3" />
+          <div className="text-xs">071-532805 | 986454546</div>
         </div>
         <div className="flex gap-2 place-content-center place-items-center">
-          <IoMail className="h-5 w-5" />
-          <div className="text-sm"> training@hubit.com.np</div>
+          <IoMail className="h-4 w-4" />
+          <div className="text-xs"> training@hubit.com.np</div>
         </div>
       </div>
       <div className="w-[75%] bg-gradient-to-r from-primary to-white h-[1px] max-md:hidden"></div>
-      <div className="flex justify-between items-center px-5 lg:px-10">
+      <div className="flex justify-between items-center px-10 lg:px-20">
         <div className=" w-full flex justify-between items-center ">
           <div className="flex justify-between items-center h-full gap-10 max-md:hidden">
             <div className="flex justify-between items-center h-full space-x-4 lg:space-x-8">
@@ -137,7 +137,7 @@ const Navbar = (props: Props) => {
               ))}
             </div>
             <Link href="/admission" className="max-lg:hidden">
-              <Button variant="secondary" size="lg" className="text-accent">
+              <Button variant="secondary" size="lg" className="text-primary font-bold">
                 Online Admission
               </Button>
             </Link>
