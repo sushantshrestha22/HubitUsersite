@@ -1,3 +1,4 @@
+import AboutSection from "@/components/pages/home/aboutSection";
 import HeroSection from "@/components/pages/home/herosection";
 import React from "react";
 
@@ -7,6 +8,7 @@ const Home = (props: Props) => {
   return (
     <div>
       <HeroSection />
+      <AboutSection />
     </div>
   );
 };

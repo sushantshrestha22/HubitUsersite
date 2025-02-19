@@ -4,4 +4,4 @@
 
 # HUB IT UserSite 2025 Feb 19
 1. Herosection Completed
-2. 
+2. AboutSection of HomePage

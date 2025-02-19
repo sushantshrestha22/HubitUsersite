@@ -4,34 +4,7 @@ import React from "react";
 type Props = {};
 
 const HeroSection = (props: Props) => {
-  interface HeroSectionProps {
-    title: string;
-    value: number;
-  }
 
-  const heroSectionData: HeroSectionProps[] = [
-    {
-      title: "Year we were Found",
-      value: 1000,
-    },
-    {
-      title: "Our Employee",
-      value: 1000,
-    },
-    {
-      title: "Our Students",
-      value: 1000,
-    },
-
-    {
-      title: "Job Placements",
-      value: 1000,
-    },
-    {
-      title: "Projects Finished",
-      value: 1000,
-    },
-  ];
 
   return (
     <div className="w-full lg:h-[80vh] md:h-[40vh] relative ">
@@ -54,19 +27,7 @@ const HeroSection = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className=" lg:absolute -bottom-32 z-10 w-full grid md:grid-cols-3 lg:grid-cols-5 p-10 lg:px-36 gap-10 ">
-        {heroSectionData.map((data, index) => (
-          <div
-            className="bg-secondary rounded-md w-full shadow place-content-center place-items-center h-40  "
-            key={index}
-          >
-            <div className="text-4xl font-semibold text-primary">
-              {data.value}
-            </div>
-            <div className="text-lg ">{data.title}</div>
-          </div>
-        ))}
-      </div>
+    
     </div>
   );
 };
