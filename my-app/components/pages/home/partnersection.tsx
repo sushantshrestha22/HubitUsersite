@@ -37,7 +37,7 @@ export default function PartnerSection() {
   ];
 
   return (
-    <div className="py-10 space-y-10">
+    <div className="py-10 space-y-10 bg-secondary">
       <div className="w-full place-items-center max-sm:place-content-center flex md:px-20 lg:px-52">
         <div className="flex items-center w-full max-sm:hidden">
           <div className="h-2 w-2 rounded-full bg-black/40"></div>
