@@ -6,4 +6,7 @@
 1. Herosection Completed
 2. About Section of HomePage
 3. Course Section of HomePage
-4. What we provide Section of HomePage
+4. What we provide section of HomePage
+  
+# HUB IT UserSite 2025 Feb 20
+1. Discount Section of HomePage

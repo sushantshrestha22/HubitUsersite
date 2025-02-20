@@ -63,6 +63,7 @@ export default {
       },
       backgroundImage: {
        "herosection": "url('/heroSection.png')",
+       "discountbackground": "url('/discountbackground.png')",
       },
 
       borderRadius: {

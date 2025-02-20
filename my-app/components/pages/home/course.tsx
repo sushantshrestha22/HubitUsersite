@@ -74,8 +74,8 @@ const Course = (props: Props) => {
           ))}
         </div>
         <div className="w-full text-end col-span-3">
-          <Button variant="ghost" size="lg" className="capitalize">
-            see more
+          <Button size="lg" variant="ghost">
+            See More
           </Button>
         </div>
       </div>
