@@ -13,3 +13,4 @@
 2. Our Partners Section of HomePage
 3. Successfull Stories Section of HomePage
 4. Contact Section of HomePage
+5. Student Testimonial Section of HomePage

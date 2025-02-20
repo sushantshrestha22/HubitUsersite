@@ -1,15 +1,16 @@
 "use client";
-import * as React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React from "react";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Image, { StaticImageData } from "next/image";
-import Course1 from "@/app/assets/image/motiongraphics.png";
 import { FaQuoteLeft } from "react-icons/fa";
+import Course1 from "@/app/assets/image/motiongraphics.png";
+import Image, { StaticImageData } from "next/image";
+import { ArrowBigDown } from "lucide-react";
 
 type Props = {};
 
-const SuccessfulSection = (props: Props) => {
+const StudentTestimonialSection = (props: Props) => {
   type Testimonial = {
     name: string;
     position: string;
@@ -48,8 +49,8 @@ const SuccessfulSection = (props: Props) => {
         className={className}
         style={{
           ...style,
-          display: "none",
-          background: "black",
+          display: "block",
+          background: "purple",
           color: "yellow",
           borderRadius: "50px",
         }}
@@ -65,24 +66,27 @@ const SuccessfulSection = (props: Props) => {
         className={className}
         style={{
           ...style,
-          display: "none",
-          background: "black",
+          display: "block",
+          background: "purple",
           color: "yellow",
           borderRadius: "50px",
         }}
         onClick={onClick}
-      />
+      >
+        <ArrowBigDown />
+      </div>
     );
   };
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
+    arrows: false,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
 
@@ -103,42 +107,46 @@ const SuccessfulSection = (props: Props) => {
       },
     ],
   };
-
   return (
-    <div className="lg:px-36 p-10 space-y-10">
+    <div className="lg:px-36 p-10">
       <div className="w-full place-items-center">
-        <div className="text-2xl font-bold">Our Successful Stories</div>
+        <div className="text-2xl font-bold">
+          See What Our Students Say About Us?
+        </div>
         <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
           "We provide industry-focused IT training with expert-led courses,
           hands-on projects, and globally recognized certifications to boost
-          your career. Our programs are designed to equip you with in-demand
-          skills and real-world experience."
+          your career. Get started on your journey to success with our courses."
         </div>
       </div>
-      <Slider {...settings} className="w-full">
-        {testimonials.map((testimonial, index) => (
-          <div className="place-items-center py-10" key={index}>
-            <div className="relative flex flex-col items-center py-10 bg-secondary border-2 shadow rounded-sm  space-y-2 w-[90%] ">
-              <FaQuoteLeft className="absolute -top-2 left-10 text-xl text-primary" />
-              <div className="border-2 border-background absolute  -top-10 rounded-full">
-                <Image
-                  src={testimonial.image}
-                  alt="testimonial"
-                  className="w-20 h-20 rounded-full "
-                />
-              </div>
-
-              <div className="text-base font-semibold pt-5">{testimonial.name}</div>
-              <div className="text-sm font-semibold text-primary">{testimonial.position}</div>
-              <div className="text-xs font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
-                {testimonial.testimonial}
+        <Slider {...settings} className="w-full">
+          {testimonials.map((testimonial, index) => (
+            <div className="place-items-center py-5 px-3" key={index}>
+              <div className="relative bg-secondary border-2 shadow  grid grid-cols-1 md:grid-cols-3 gap-5 rounded-sm p-5 ">
+                <div className="border-2 border-background ">
+                  <Image
+                    src={testimonial.image}
+                    alt="testimonial"
+                    className="w-full h-full"
+                  />
+                </div>
+                <div className="col-span-2">
+                  <div className="text-base font-semibold">
+                    {testimonial.name}
+                  </div>
+                  <div className="text-sm font-semibold text-primary">
+                    {testimonial.position}
+                  </div>
+                  <div className="text-xs font-medium text-black/60 max-lg:line-clamp-6  text-justify">
+                    {testimonial.testimonial}
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
     </div>
   );
 };
 
-export default SuccessfulSection;
+export default StudentTestimonialSection;
