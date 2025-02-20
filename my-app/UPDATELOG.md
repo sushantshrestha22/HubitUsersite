@@ -10,3 +10,4 @@
   
 # HUB IT UserSite 2025 Feb 20
 1. Discount Section of HomePage
+1. Our Partners Section of HomePage
