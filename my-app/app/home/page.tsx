@@ -3,6 +3,7 @@ import Course from "@/components/pages/home/course";
 import DiscountSection from "@/components/pages/home/discountsection";
 import HeroSection from "@/components/pages/home/herosection";
 import PartnerSection from "@/components/pages/home/partnersection";
+import QuickCall from "@/components/pages/home/quickcall";
 import SuccessfulSection from "@/components/pages/home/successfulsection";
 import Weprovide from "@/components/pages/home/weprovide";
 import React from "react";
@@ -19,6 +20,7 @@ const Home = (props: Props) => {
       <DiscountSection/>
       <PartnerSection />
       <SuccessfulSection />
+      <QuickCall />
     </div>
   );
 };

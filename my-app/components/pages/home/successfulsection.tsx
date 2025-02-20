@@ -128,7 +128,7 @@ const SuccessfulSection = (props: Props) => {
                 />
               </div>
 
-              <div className="text-base font-semibold max-lg:pt-5">{testimonial.name}</div>
+              <div className="text-base font-semibold pt-5">{testimonial.name}</div>
               <div className="text-sm font-semibold text-primary">{testimonial.position}</div>
               <div className="text-xs font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
                 {testimonial.testimonial}
