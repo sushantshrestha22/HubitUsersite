@@ -105,9 +105,9 @@ const SuccessfulSection = (props: Props) => {
   };
 
   return (
-    <div className="lg:px-36 p-10 space-y-10">
+    <div className="lg:px-36 px-10 py-10 space-y-10">
       <div className="w-full place-items-center">
-        <div className="text-2xl font-bold">Our Successful Stories</div>
+        <div className="text-2xl font-bold ">Our Successful Stories</div>
         <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
           "We provide industry-focused IT training with expert-led courses,
           hands-on projects, and globally recognized certifications to boost
@@ -117,10 +117,10 @@ const SuccessfulSection = (props: Props) => {
       </div>
       <Slider {...settings} className="w-full">
         {testimonials.map((testimonial, index) => (
-          <div className="place-items-center py-10" key={index}>
-            <div className="relative flex flex-col items-center py-10 bg-secondary border-2 shadow rounded-sm  space-y-2 w-[90%] ">
+          <div className="place-items-center pt-10 px-3" key={index}>
+            <div className="relative flex flex-col items-center py-10 bg-secondary border-2 shadow rounded-sm  space-y-2 ">
               <FaQuoteLeft className="absolute -top-2 left-10 text-xl text-primary" />
-              <div className="border-2 border-background absolute  -top-10 rounded-full">
+              <div className="border-2 border-background absolute -top-12 rounded-full">
                 <Image
                   src={testimonial.image}
                   alt="testimonial"

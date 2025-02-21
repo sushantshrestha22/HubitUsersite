@@ -36,31 +36,31 @@ const AboutSection = (props: Props) => {
   ];
   return (
     <div className="relative">
-      <div className=" lg:absolute -top-32 z-10 w-full grid max-sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-10 lg:px-36 max-sm:gap-5 gap-10 ">
+      <div className=" lg:absolute -top-24 z-10 w-full grid max-sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 px-10 pt-10 lg:px-36 max-sm:gap-5 gap-10 ">
         {heroSectionData.map((data, index) => (
           <div
             key={index}
             className={`w-full place-content-center place-items-center`}
           >
             <div
-              className={`bg-secondary rounded-md w-full  shadow place-content-center place-items-center max-sm:h-20 h-40 `}
+              className={`bg-secondary rounded-md w-full  shadow place-content-center place-items-center max-sm:h-20 h-32 `}
             >
-              <div className="max-sm:text-lg text-4xl font-semibold text-primary">
+              <div className="max-sm:text-lg text-2xl font-semibold text-primary">
                 {data.value}
               </div>
-              <div className="max-sm:text-xs text-lg ">{data.title}</div>
+              <div className="max-sm:text-xs text-base ">{data.title}</div>
             </div>
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 lg:pt-32 py-10 px-10  lg:px-36">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 lg:pt-28 py-10 px-10  lg:px-36">
         <div className="relative">
           <div className="w-20 h-20 bg-background absolute right-0 z-10 max-sm:hidden"></div>
           <div className="w-20 h-20 bg-background absolute left-0 bottom-0 z-10 max-sm:hidden"></div>
           <Image src={AboutImage} alt="errorAboutImage" className="bg-cover w-full bg-no-repeat"/>
         </div>
-        <div className="space-y-6 place-content-center">
-          <div className="text-2xl font-bold">Who We Are?</div>
+        <div className="space-y-4">
+          <div className="text-2xl font-bold max-sm:text-center">Who We Are?</div>
           <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6">
             Welcome to our HUB IT Group Pvt.Ltd. We have started our service
             journey from 2017 for then till now it has been a wonderful journey.

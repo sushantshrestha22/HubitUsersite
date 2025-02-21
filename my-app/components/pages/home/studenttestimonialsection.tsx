@@ -108,9 +108,9 @@ const StudentTestimonialSection = (props: Props) => {
     ],
   };
   return (
-    <div className="lg:px-36 p-10">
+    <div className="lg:px-36 p-10 space-y-10">
       <div className="w-full place-items-center">
-        <div className="text-2xl font-bold">
+        <div className="text-2xl font-bold max-sm:text-center">
           See What Our Students Say About Us?
         </div>
         <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
@@ -119,32 +119,32 @@ const StudentTestimonialSection = (props: Props) => {
           your career. Get started on your journey to success with our courses."
         </div>
       </div>
-        <Slider {...settings} className="w-full">
-          {testimonials.map((testimonial, index) => (
-            <div className="place-items-center py-5 px-3" key={index}>
-              <div className="relative bg-secondary border-2 shadow  grid grid-cols-1 md:grid-cols-3 gap-5 rounded-sm p-5 ">
-                <div className="border-2 border-background ">
-                  <Image
-                    src={testimonial.image}
-                    alt="testimonial"
-                    className="w-full h-full"
-                  />
+      <Slider {...settings} className="w-full">
+        {testimonials.map((testimonial, index) => (
+          <div className="place-items-center  px-3" key={index}>
+            <div className="relative bg-secondary border-2 shadow  grid grid-cols-1 md:grid-cols-3 rounded-sm">
+              <div className="border-background ">
+                <Image
+                  src={testimonial.image}
+                  alt="testimonial"
+                  className="w-full h-full"
+                />
+              </div>
+              <div className="col-span-2 p-5 space-y-2">
+                <div className="text-base font-semibold">
+                  {testimonial.name}
                 </div>
-                <div className="col-span-2">
-                  <div className="text-base font-semibold">
-                    {testimonial.name}
-                  </div>
-                  <div className="text-sm font-semibold text-primary">
-                    {testimonial.position}
-                  </div>
-                  <div className="text-xs font-medium text-black/60 max-lg:line-clamp-6  text-justify">
-                    {testimonial.testimonial}
-                  </div>
+                <div className="text-sm font-semibold text-primary">
+                  {testimonial.position}
+                </div>
+                <div className="text-xs font-medium text-black/60 max-lg:line-clamp-6  text-justify">
+                  {testimonial.testimonial}
                 </div>
               </div>
             </div>
-          ))}
-        </Slider>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

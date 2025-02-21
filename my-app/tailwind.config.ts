@@ -62,8 +62,8 @@ export default {
         },
       },
       backgroundImage: {
-       "herosection": "url('/heroSection.png')",
-       "discountbackground": "url('/discountbackground.png')",
+        herosection: "url('/heroSection.png')",
+        discountbackground: "url('/discountbackground.png')",
       },
 
       borderRadius: {
@@ -103,10 +103,19 @@ export default {
             height: "0",
           },
         },
+        "border-color": {
+          "0%, 100%": {
+            borderColor: "red",
+          },
+          "50%": {
+            borderColor: "var(--radix-border-color-active)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "border-color": "border-color 1s ",
       },
     },
   },

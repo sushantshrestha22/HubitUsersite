@@ -14,3 +14,6 @@
 3. Successfull Stories Section of HomePage
 4. Contact Section of HomePage
 5. Student Testimonial Section of HomePage
+
+# HUB IT UserSite 2025 Feb 21
+1. All UI bug fixed
