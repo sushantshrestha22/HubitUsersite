@@ -20,3 +20,4 @@
 2. Footer completed
 3. About Section of AboutPage
 4. Key Statistic of AboutPage
+5. What we provide section of AboutPage
