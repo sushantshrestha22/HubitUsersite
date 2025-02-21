@@ -21,3 +21,4 @@
 3. About Section of AboutPage
 4. Key Statistic of AboutPage
 5. What we provide section of AboutPage
+6. Meet Our Team section of AboutPage

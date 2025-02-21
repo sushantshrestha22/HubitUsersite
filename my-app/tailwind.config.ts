@@ -104,10 +104,10 @@ export default {
           },
         },
         "border-color": {
-          "0%, 100%": {
+          "0%": {
             borderColor: "red",
           },
-          "50%": {
+          "100%": {
             borderColor: "var(--radix-border-color-active)",
           },
         },
