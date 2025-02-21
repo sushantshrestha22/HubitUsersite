@@ -18,3 +18,4 @@
 # HUB IT UserSite 2025 Feb 21
 1. All UI bug fixed
 2. Footer completed
+3. About Section of AboutPage
