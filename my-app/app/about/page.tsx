@@ -1,4 +1,5 @@
 import AboutHeroSection from "@/components/pages/about/herosection";
+import KeyStatistics from "@/components/pages/about/keystatistics";
 import PageHerosection from "@/components/pages/common/pageherosection";
 import React from "react";
 
@@ -9,6 +10,8 @@ const page = (props: Props) => {
     <div>
       <PageHerosection title="About Us" />
       <AboutHeroSection />
+      <KeyStatistics />
+      {/* <Weprovide /> */}
     </div>
   );
 };
