@@ -64,6 +64,7 @@ export default {
       backgroundImage: {
         herosection: "url('/heroSection.png')",
         discountbackground: "url('/discountbackground.png')",
+        missionvisionbackground: "url('/missionvisionbackground.png')",
       },
 
       borderRadius: {

@@ -23,10 +23,11 @@
 1. All UI bug fixed
 2. Footer completed
 3. About Section of AboutPage
-4. Key Statistic of AboutPage
-5. What we provide section of AboutPage
-6. Meet Our Team section of AboutPage
+4. Key Statistic Section of AboutPage
+5. What we provide Section of AboutPage
+6. Meet Our Team Section of AboutPage
 
 # HUB IT UserSite 2025 Feb 23
 
 1. Student Testimonial Section, Our Partners Section and Contact Section of About Page
+4. Mission/Vision Section of AboutPage

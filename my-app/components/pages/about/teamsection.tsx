@@ -40,7 +40,7 @@ const TeamSection = (props: Props) => {
   ];
 
   return (
-    <div className="bg-secondary lg:px-36 p-10 space-y-10">
+    <div className="lg:px-36 p-10 space-y-10">
       <div className="w-full place-items-center">
         <div className="text-2xl font-bold">Meet Our Team</div>
         <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
