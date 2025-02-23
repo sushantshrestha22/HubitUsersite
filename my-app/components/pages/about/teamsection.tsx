@@ -58,10 +58,10 @@ const TeamSection = (props: Props) => {
                 <Image
                   src={data.image}
                   alt="errorAboutImage"
-                  className="bg-cover bg-center w-full md:h-[30vh] lg:h-[40vh] bg-no-repeat"
+                  className="bg-cover bg-center w-full md:h-[30vh] lg:h-[40vh] bg-no-repeat rounded-t-md"
                 />
 
-                <div className="group-hover:block hidden transition-colors ease-in-out duration-700 absolute bg-black top-0 w-full h-full bg-opacity-50 text-secondary place-content-center place-items-center ">
+                <div className="group-hover:block hidden transition-colors ease-in-out duration-700 absolute bg-black top-0 w-full h-full bg-opacity-50 text-secondary place-content-center place-items-center rounded-t-md">
                   <div className="grid-cols-2 gap-2 grid w-[30%]">
                     <Link href="#">
                       <FaXTwitter className="h-8  w-8 " />
@@ -83,7 +83,6 @@ const TeamSection = (props: Props) => {
                   {data.name}
                 </div>
                 <div className="flex items-center gap-2 text-xs lg:text-sm font-semibold text-primary">
-                  {" "}
                   {data.designation}
                 </div>
               </div>
