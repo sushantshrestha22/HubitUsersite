@@ -11,7 +11,7 @@ import React from "react";
 
 type Props = {};
 
-const page = (props: Props) => {
+const AboutPage = (props: Props) => {
   return (
     <div>
       <PageHerosection title1="Home" title2="About" link1="#" link2="#" />
@@ -27,4 +27,4 @@ const page = (props: Props) => {
   );
 };
 
-export default page;
+export default AboutPage;
