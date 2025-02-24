@@ -32,3 +32,7 @@
 1. Student Testimonial Section, Our Partners Section and Contact Section of About Page
 2. Mission/Vision Section of AboutPage
 3. Student Testimonial Section and Contact Section of Course Page
+
+# HUB IT UserSite 2025 Feb 24
+1. Course Section of Course Page
+2. Course Navbar Section of Course Page

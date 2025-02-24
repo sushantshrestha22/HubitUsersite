@@ -48,53 +48,60 @@ const AppSidebar: React.FC = () => {
   const navItems: NavItem[] = [
     {
       name: "Home",
-      href: "/",
+      href: "/home",
     },
     {
       name: "About Us",
       href: "/about",
     },
     {
+      name: "Courses",
+      href: "/courses",
+    },
+    {
+      name: "Placements",
+      href: "/placements",
+    },
+    {
       name: "Services",
       href: "/services",
     },
+    {
+      name: "Corporate Training",
+      href: "/corporate-training",
+    },
+    // {
+    //   name: "Get Involved",
+    //   href: "/get-involved",
+    //   dropdown: [
+    //     {
+    //       name: "Donate Blood",
+    //       href: "/donate-blood",
+    //     },
+    //     {
+    //       name: "Donate to NRCS",
+    //       href: "/donate-nrcs",
+    //     },
+    //     {
+    //       name: "Become a Volunteer",
+    //       href: "/volunteer",
+    //     },
+    //     {
+    //       name: "Become a Member",
+    //       href: "/member",
+    //     },
+    //   ],
+    // },
 
-    {
-      name: "Events",
-      href: "/events",
-    },
-    {
-      name: "News & Updates",
-      href: "/news",
-    },
-    {
-      name: "Contact Us",
-      href: "/contact",
-    },
-    {
-      name: "Get Involved",
-      href: "/get-involved",
-      dropdown: [
-        {
-          name: "Donate Blood",
-          href: "/donate-blood",
-        },
-        {
-          name: "Donate to NRCS",
-          href: "/donate-nrcs",
-        },
-        {
-          name: "Become a Volunteer",
-          href: "/volunteer",
-        },
-        {
-          name: "Become a Member",
-          href: "/member",
-        },
-      ],
-    },
+    // {
+    //   name: "News & Updates",
+    //   href: "/news",
+    // },
+    // {
+    //   name: "Contact Us",
+    //   href: "/contact",
+    // },
   ];
-
   const pathname: string = usePathname();
   console.log(pathname);
 
