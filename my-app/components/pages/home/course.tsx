@@ -35,14 +35,14 @@ const Course = (props: Props) => {
 
   return (
     <div className="bg-secondary lg:px-36 p-10 space-y-10">
-      <div className="w-full place-items-center">
-        <div className="text-2xl font-bold">Courses We Offer</div>
-        <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
+      <div className="w-full space-y-4 place-items-center">
+        <h2 className="text-xl font-bold max-sm:text-center">Courses We Offer</h2>
+        <p className="text-xs md:text-sm text-center text-black/60  max-lg:line-clamp-[8] w-[75%]">
           "We provide industry-focused IT training with expert-led courses,
           hands-on projects, and globally recognized certifications to boost
           your career. Our programs are designed to equip you with in-demand
           skills and real-world experience."
-        </div>
+        </p>
       </div>
       <div className="space-y-5 lg:space-y-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10">

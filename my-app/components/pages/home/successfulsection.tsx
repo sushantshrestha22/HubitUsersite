@@ -106,14 +106,14 @@ const SuccessfulSection = (props: Props) => {
 
   return (
     <div className="lg:px-36 px-10 py-10 space-y-10">
-      <div className="w-full place-items-center">
-        <div className="text-2xl font-bold ">Our Successful Stories</div>
-        <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
+      <div className="w-full place-items-center space-y-4">
+        <h1 className="text-xl font-bold ">Our Successful Stories</h1>
+        <p className="text-xs md:text-sm text-center text-black/60  max-lg:line-clamp-[8] w-[75%]">
           "We provide industry-focused IT training with expert-led courses,
           hands-on projects, and globally recognized certifications to boost
           your career. Our programs are designed to equip you with in-demand
           skills and real-world experience."
-        </div>
+        </p>
       </div>
       <Slider {...settings} className="w-full">
         {testimonials.map((testimonial, index) => (

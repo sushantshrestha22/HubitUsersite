@@ -7,11 +7,11 @@ const QuickCall = (props: Props) => {
   return (
     <div className="bg-gradient-to-r from-accent to-primary h-[50vh]  md:h-[25vh] lg:h-[30vh] text-secondary px-10 lg:px-36 grid lg:grid-cols-2">
       <div className="place-content-center place-items-start space-y-2">
-        <div className="text-lg lg:text-2xl font-bold">Let Us Give you A Quick Call!</div>
-        <div className="text-base font-medium">
+        <h1 className="text-lg lg:text-xl font-bold">Let Us Give you A Quick Call!</h1>
+        <p className="text-xs font-medium">
           Leave Us Your Contact Number So Our Administrative Can Contact You As
           Soon As Possible.
-        </div>
+        </p>
       </div>
       <div className="place-content-center place-items-center w-full">
         <ContactForm />

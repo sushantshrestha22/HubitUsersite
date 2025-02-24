@@ -31,7 +31,7 @@ const ContactForm = (props: Props) => {
           {...register("phone")}
           type="text"
           placeholder="Phone Number"
-          className="bg-secondary text-accent h-12"
+          className="bg-secondary text-accent text-xs h-12"
         />
         <Button type="submit" variant="outline" className="h-12 shadow-lg">
           Submit

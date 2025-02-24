@@ -17,8 +17,8 @@ const AboutHeroSection = (props: Props) => {
           <Image src={AboutImage} alt="errorAboutImage" className="bg-cover w-full bg-no-repeat"/>
         </div>
         <div className="space-y-4">
-          <div className="text-2xl font-bold max-sm:text-center">Who We Are?</div>
-          <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6">
+          <h1 className="text-xl font-bold max-sm:text-center">Who We Are?</h1>
+          <p className="text-xs md:text-sm text-justify font-medium text-black/60 max-lg:line-clamp-6">
             Welcome to our HUB IT Group Pvt.Ltd. We have started our service
             journey from 2017 for then till now it has been a wonderful journey.
             We are thrilled to have you visiting our website and learning more
@@ -30,7 +30,7 @@ const AboutHeroSection = (props: Props) => {
             our goal is to stay ahead of the curve by providing our clients with
             the skills and knowledge they need to succeed in today's digital
             age.
-          </div>
+          </p>
           <div className="md:space-x-4 max-md:space-y-4">
             <Button size="lg">Get Started</Button>
             <Button size="lg" variant="ghost">

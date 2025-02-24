@@ -38,7 +38,7 @@ const WokingProcessSection = (props: Props) => {
         <h1 className="text-xl font-bold max-sm:text-center">
           Working Process{" "}
         </h1>
-        <p className="text-xs md:text-sm text-center text-secondary opacity-60 max-lg:line-clamp-[8]">
+        <p className="text-xs md:text-sm text-center text-secondary opacity-60 max-lg:line-clamp-[8] w-[75%]">
           "We provide industry-focused IT training with expert-led courses,
           hands-on projects, and globally recognized certifications to boost
           your career. Our programs are designed to equip you with in-demand

@@ -109,15 +109,16 @@ const StudentTestimonialSection = (props: Props) => {
   };
   return (
     <div className="lg:px-36 p-10 space-y-10">
-      <div className="w-full place-items-center">
-        <div className="text-2xl font-bold max-sm:text-center">
+      <div className="w-full place-items-center space-y-4">
+        <h1 className="text-xl font-bold max-sm:text-center">
           See What Our Students Say About Us?
-        </div>
-        <div className="text-xs md:text-base font-medium text-black/60 max-lg:line-clamp-6 w-[85%] text-center">
+        </h1>
+        <p className="text-xs md:text-sm text-center text-black/60  max-lg:line-clamp-[8] w-[75%]">
           "We provide industry-focused IT training with expert-led courses,
           hands-on projects, and globally recognized certifications to boost
-          your career. Get started on your journey to success with our courses."
-        </div>
+          your career. Our programs are designed to equip you with in-demand
+          skills and real-world experience."
+        </p>
       </div>
       <Slider {...settings} className="w-full">
         {testimonials.map((testimonial, index) => (

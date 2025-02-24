@@ -37,4 +37,5 @@
 1. Course Section of Course Page
 2. Course Navbar Section of Course Page
 3. About Placement Section of Course Page
-3. Working Process Section of Course Page
+4. Working Process Section of Course Page
+5. All UI bug fixed

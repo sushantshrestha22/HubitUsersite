@@ -12,7 +12,7 @@ const AboutPlacement = (props: Props) => {
         <h1 className="text-xl font-bold max-sm:tet-center">
           What do we do for your placement?
         </h1>
-        <p className="text-xs md:text-sm font-medium text-black/60 max-lg:line-clamp-[8]">
+        <p className="text-xs md:text-sm text-justify font-medium text-black/60 max-lg:line-clamp-[8]">
           Our company is committed to nurturing the next generation of talent by
           providing comprehensive internship opportunities for trainees. Through
           hands-on projects and mentorship from seasoned professionals, interns

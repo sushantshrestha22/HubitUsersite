@@ -40,13 +40,13 @@ export default function PartnerSection() {
     <div className="py-10 space-y-10 bg-secondary">
       <div className="w-full place-items-center max-sm:place-content-center flex md:px-20 lg:px-52">
         <div className="flex items-center w-full max-sm:hidden">
-          <div className="h-2 w-2 rounded-full bg-black/40"></div>
-          <div className="border border-black/40 w-full"></div>
+          <div className="h-2 w-2 rounded-full bg-black/20"></div>
+          <div className="border border-black/20 w-full"></div>
         </div>
-        <div className="text-2xl font-bold md:w-[70%]  lg:w-[35%] text-center">Our Partners</div>
+        <h1 className="text-xl font-bold md:w-[70%] lg:w-[35%] text-center">Our Partners</h1>
         <div className="flex items-center w-full max-sm:hidden">
-          <div className="border border-black/40 w-full"></div>
-          <div className="h-2 w-2 rounded-full bg-black/40"></div>
+          <div className="border border-black/20 w-full"></div>
+          <div className="h-2 w-2 rounded-full bg-black/20"></div>
         </div>
       </div>
       <Marquee className="px-10 lg:px-36" speed={50} pauseOnHover={true}>
