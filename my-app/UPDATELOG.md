@@ -36,3 +36,4 @@
 # HUB IT UserSite 2025 Feb 24
 1. Course Section of Course Page
 2. Course Navbar Section of Course Page
+3. About Placement Section of Course Page
