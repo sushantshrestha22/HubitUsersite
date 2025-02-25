@@ -41,4 +41,5 @@
 5. All UI bug fixed  
 
 # HUB IT UserSite 2025 Feb 25
-1. service We provide Section of Service Page
+1. Service We provide Section of Service Page
+2. SubFooter updated.

@@ -41,7 +41,7 @@ const GetInTouchForm = (props: Props) => {
         <Textarea
           {...register("queries")}
           placeholder="Queries"
-          className="bg-secondary text-accent h-12 col-span-2"
+          className="bg-secondary text-accent h-36 col-span-2"
         />
         <div className="col-span-2 text-end">
           <Button type="submit" variant="outline" className="h-12 shadow-lg" size="lg">
