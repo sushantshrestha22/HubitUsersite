@@ -93,8 +93,8 @@ const Footer = (props: Props) => {
 
   return (
     <div>
-      <div className="bg-[#270820] w-full lg:h-[60vh] text-secondary p-10 lg:px-36 lg:py-20 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-4 gap-10">
-        <div className="space-y-4 ">
+      <div className="bg-[#270820] w-full lg:h-[60vh]  place-content-center  text-secondary p-10 lg:px-36 lg:py-20 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-4 gap-10">
+        <div className="space-y-4">
           <div className="space-y-4">
             <div className="text-lg font-bold">Contact</div>
             <div className="space-y-4">

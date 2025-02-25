@@ -53,7 +53,7 @@ const AboutSection = (props: Props) => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 lg:pt-28 py-10 px-10  lg:px-36">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 lg:pt-28 py-10 px-10 lg:px-36 ">
         <div className="relative">
           <div className="w-20 h-20 bg-background absolute right-0 z-10 max-sm:hidden"></div>
           <div className="w-20 h-20 bg-background absolute left-0 bottom-0 z-10 max-sm:hidden"></div>
@@ -63,7 +63,7 @@ const AboutSection = (props: Props) => {
             className="bg-cover w-full bg-no-repeat"
           />
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 place-content-center ">
           <h2 className="text-xl font-bold max-sm:text-center">Who We Are?</h2>
           <p className="text-xs md:text-sm text-justify text-black/60  max-lg:line-clamp-[8]">
             Welcome to our HUB IT Group Pvt.Ltd. We have started our service

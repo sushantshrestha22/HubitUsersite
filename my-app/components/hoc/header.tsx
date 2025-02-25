@@ -8,7 +8,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="bg-primary text-white w-full flex ">
+    <div className="bg-primary text-white w-full flex sticky top-0 z-50">
       <div className="bg-secondary p-2 flex justify-center items-center gap-2 max-sm:w-[30%] w-[15%]">
         <Image src={Logo} alt="logoError" className="sm:h-24 w-32" />
       </div>

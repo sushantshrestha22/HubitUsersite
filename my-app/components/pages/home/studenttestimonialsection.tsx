@@ -132,15 +132,13 @@ const StudentTestimonialSection = (props: Props) => {
                 />
               </div>
               <div className="col-span-2 p-5 space-y-2">
-                <div className="text-base font-semibold">
-                  {testimonial.name}
-                </div>
-                <div className="text-sm font-semibold text-primary">
+                <h4 className="text-base font-semibold">{testimonial.name}</h4>
+                <h6 className="text-sm font-semibold text-primary">
                   {testimonial.position}
-                </div>
-                <div className="text-xs font-medium text-black/60 max-lg:line-clamp-6  text-justify">
+                </h6>
+                <p className="text-xs  text-black/60 max-lg:line-clamp-6  text-justify">
                   {testimonial.testimonial}
-                </div>
+                </p>
               </div>
             </div>
           </div>

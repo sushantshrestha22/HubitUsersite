@@ -38,4 +38,7 @@
 2. Course Navbar Section of Course Page
 3. About Placement Section of Course Page
 4. Working Process Section of Course Page
-5. All UI bug fixed
+5. All UI bug fixed  
+
+# HUB IT UserSite 2025 Feb 25
+1. service We provide Section of Service Page

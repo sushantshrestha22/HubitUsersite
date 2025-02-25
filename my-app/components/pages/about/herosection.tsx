@@ -16,7 +16,7 @@ const AboutHeroSection = (props: Props) => {
           <div className="w-20 h-20 bg-background absolute left-0 bottom-0 z-10 max-sm:hidden"></div>
           <Image src={AboutImage} alt="errorAboutImage" className="bg-cover w-full bg-no-repeat"/>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 place-content-center">
           <h1 className="text-xl font-bold max-sm:text-center">Who We Are?</h1>
           <p className="text-xs md:text-sm text-justify font-medium text-black/60 max-lg:line-clamp-6">
             Welcome to our HUB IT Group Pvt.Ltd. We have started our service

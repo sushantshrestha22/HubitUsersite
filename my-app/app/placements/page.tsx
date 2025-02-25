@@ -18,7 +18,7 @@ const Placement = (props: Props) => {
       <JobPlacementSection />
       <QuickCall />
       <PartnerSection />
-      {/* <StudentTestimonialSection /> */}
+      <StudentTestimonialSection />
     </div>
   );
 };

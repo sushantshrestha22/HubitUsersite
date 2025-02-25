@@ -79,7 +79,7 @@ const TeamSection = (props: Props) => {
                 </div>
               </div>
               <div className=" p-4 rounded-b-md  shadow">
-                <div className="text-xs lg:text-base font-bold">
+                <div className="text-xs lg:text-sm font-bold">
                   {data.name}
                 </div>
                 <div className="flex items-center gap-2 text-xs lg:text-sm font-semibold text-primary">
