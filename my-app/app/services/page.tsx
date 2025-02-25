@@ -1,4 +1,5 @@
 import PageHerosection from "@/components/pages/common/pageherosection";
+import ServiceKeyStatistics from "@/components/pages/services/keystatistics";
 import OurServiceSection from "@/components/pages/services/ourservicesection";
 import React from "react";
 
@@ -9,6 +10,7 @@ const Services = (props: Props) => {
     <div>
       <PageHerosection title1="Home" title2="Services" link1="#" link2="#" />
       <OurServiceSection />
+      <ServiceKeyStatistics />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPlus } from "react-icons/fa";
 
 type Props = {};
 
@@ -41,8 +42,9 @@ const KeyStatistics = (props: Props) => {
           <div
             className={`bg-secondary rounded-md w-full  shadow place-content-center place-items-center max-sm:h-20 h-32 `}
           >
-            <div className="max-sm:text-lg text-2xl font-semibold text-primary">
+            <div className="max-sm:text-lg text-2xl font-semibold text-primary flex">
               {data.value}
+                <FaPlus className="h-4 w-4 text-primary" />
             </div>
             <div className="max-sm:text-xs text-base ">{data.title}</div>
           </div>
