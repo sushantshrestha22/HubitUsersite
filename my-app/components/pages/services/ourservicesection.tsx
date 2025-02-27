@@ -2,8 +2,8 @@ import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { MdModelTraining } from "react-icons/md";
 import { SiBuiltbybit } from "react-icons/si";
-import Development from "@/app/assets/image/development.png";
-import Training from "@/app/assets/image/training.png";
+import Development from "@/app/assets/image/training.png";
+import Training from "@/app/assets/image/development.png";
 
 type Props = {};
 
@@ -47,7 +47,7 @@ const OurServiceSection = (props: Props) => {
         {servicesData.map((data, index) => (
           <div key={index} className="w-full relative rounded-md">
             <Image src={data.image} alt="errorAboutImage" className="max-sm:h-[30vh] rounded-md"  />
-            <div className="absolute top-0 bg-[#3A012D]/50 w-full h-full rounded-md"></div>
+            <div className="absolute top-0 bg-[#3A012D]/80 w-full h-full rounded-md"></div>
             <div className="z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white space-y-2 w-full">
               <div className="place-items-center w-full">{data.icon}</div>
               <div className="text-center text-xs lg:text-base font-bold ">{data.title}</div>

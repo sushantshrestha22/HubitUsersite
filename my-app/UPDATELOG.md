@@ -27,6 +27,8 @@
 5. What we provide Section of AboutPage
 6. Meet Our Team Section of AboutPage
 
+<!-- submitted -->
+
 # HUB IT UserSite 2025 Feb 23
 
 1. Student Testimonial Section, Our Partners Section and Contact Section of About Page
@@ -34,13 +36,19 @@
 3. Student Testimonial Section and Contact Section of Course Page
 
 # HUB IT UserSite 2025 Feb 24
+
 1. Course Section of Course Page
 2. Course Navbar Section of Course Page
 3. About Placement Section of Course Page
 4. Working Process Section of Course Page
-5. All UI bug fixed  
+5. All UI bug fixed
 
 # HUB IT UserSite 2025 Feb 25
+
 1. Service We provide Section of Service Page
 2. SubFooter updated.
 3. Key Statistic Section of Service Page
+
+# HUB IT UserSite 2025 Feb 27
+
+1. IT solutions we provide Section of Service Page
