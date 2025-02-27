@@ -1,4 +1,7 @@
+import TeamSection from "@/components/pages/about/teamsection";
 import PageHerosection from "@/components/pages/common/pageherosection";
+import QuickCall from "@/components/pages/home/quickcall";
+import StudentTestimonialSection from "@/components/pages/home/studenttestimonialsection";
 import ItSolutionSection from "@/components/pages/services/itsolutionsection";
 import ServiceKeyStatistics from "@/components/pages/services/keystatistics";
 import OurServiceSection from "@/components/pages/services/ourservicesection";
@@ -15,6 +18,9 @@ const Services = (props: Props) => {
       <ServiceKeyStatistics />
       <TrainingService />
       <ItSolutionSection />
+      <TeamSection />
+      <QuickCall />
+      <StudentTestimonialSection />
     </div>
   );
 };
