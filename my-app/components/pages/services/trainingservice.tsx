@@ -29,7 +29,7 @@ const TrainingService = (props: Props) => {
   ];
 
   return (
-    <div className="relative grid md:grid-cols-2 gap-10 lg:px-36 p-10 place-items-center ">
+    <div className="relative grid md:grid-cols-2 gap-10 lg:px-36 p-10 place-items-center">
       <div className="absolute top-1/2 -translate-y-1/2  md:w-[40%]  lg:w-[20%] left-0 max-sm:hidden opacity-50">
         <Image
           src={LeftDesign}
@@ -44,7 +44,7 @@ const TrainingService = (props: Props) => {
           className="bg-cover w-full bg-no-repeat"
         />
       </div>
-      <div className="z-10">
+      <div className="z-10 ">
         <div className="w-full space-y-8">
           <div className="space-y-2">
             <h1 className="text-xl font-bold max-sm:text-center">
@@ -70,26 +70,30 @@ const TrainingService = (props: Props) => {
           <Button size="lg">Views More</Button>
         </div>
       </div>
-      <div className="z-10 rounded-full border-4 border-primary p-2 h-full lg:w-[350px]  lg:h-[50vh] relative max-sm:hidden">
-        <Image
-          src={Training}
-          alt="ErrorImage"
-          className="rounded-full w-full h-full object-cover"
-        />
+      <div className=" w-full place-items-center relative">
+        <div className="bg-primary text-secondary">
 
-        <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute -left-7 top-28">
-          <MdModelTraining  className="w-8 h-8 text-primary "/>
         </div>
-        <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute left-0 top-3/4">
-          <MdModelTraining  className="w-8 h-8 text-primary "/>
+        <div className="z-10 rounded-full border-4 border-primary p-2 h-full lg:w-[350px]  lg:h-[50vh] relative max-sm:hidden ">
+          <Image
+            src={Training}
+            alt="ErrorImage"
+            className="rounded-full w-full h-full object-cover"
+          />
+
+          <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute -left-7 top-28">
+            <MdModelTraining className="w-8 h-8 text-primary " />
+          </div>
+          <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute left-0 top-3/4">
+            <MdModelTraining className="w-8 h-8 text-primary " />
+          </div>
+          <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute left-0 bottom-3/4">
+            <MdModelTraining className="w-8 h-8 text-primary " />
+          </div>
+          <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute -left-7 bottom-28">
+            <MdModelTraining className="w-8 h-8 text-primary " />
+          </div>
         </div>
-        <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute left-0 bottom-3/4">
-          <MdModelTraining  className="w-8 h-8 text-primary "/>
-        </div>
-        <div className="border-4 border-primary rounded-full bg-background w-14 h-14 place-content-center place-items-center p-2 absolute -left-7 bottom-28">
-          <MdModelTraining  className="w-8 h-8 text-primary "/>
-        </div>
-       
       </div>
     </div>
   );
