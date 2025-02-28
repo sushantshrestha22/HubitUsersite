@@ -4,6 +4,8 @@ import CorporateKeyStatistics from "@/components/pages/corporate-training/corpor
 import CorporatePartnerSection from "@/components/pages/corporate-training/corporatepartners";
 import TrainingRunning from "@/components/pages/corporate-training/trainingrunning";
 import UpcomingCorporateTraining from "@/components/pages/corporate-training/upcomingcorporatetraining";
+import QuickCall from "@/components/pages/home/quickcall";
+import StudentTestimonialSection from "@/components/pages/home/studenttestimonialsection";
 import React from "react";
 
 type Props = {};
@@ -22,6 +24,8 @@ const CorporateTraining = (props: Props) => {
       <TrainingRunning />
       <CorporatePartnerSection />
       <UpcomingCorporateTraining />
+      <QuickCall />
+      <StudentTestimonialSection />
     </div>
   );
 };
