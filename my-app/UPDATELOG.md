@@ -65,3 +65,4 @@
 <!-- submitted -->
 
 7. Student Enrolled Form of Contact Page
+8. QuickCall, Student Testimonial Section of Contact Page
