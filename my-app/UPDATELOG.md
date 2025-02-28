@@ -61,3 +61,7 @@
 4. Corporate Partners Section of Corporate Training Page
 5. Upcoming Corporate Training Section of Corporate Training Page
 6. QuickCall, Student Testimonial Section of Corporate Training Page
+
+<!-- submitted -->
+
+7. Student Enrolled Form of Contact Page

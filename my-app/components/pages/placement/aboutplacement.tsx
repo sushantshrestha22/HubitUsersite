@@ -9,7 +9,7 @@ const AboutPlacement = (props: Props) => {
   return (
     <div className="flex flex-col-reverse gap-10  md:grid md:grid-cols-2 px-10 py-10 lg:px-36 place-content-center place-items-center">
       <div className="flex flex-col gap-4">
-        <h1 className="text-xl font-bold max-sm:tet-center">
+        <h1 className="text-xl font-bold max-sm:text-center">
           What do we do for your placement?
         </h1>
         <p className="text-xs md:text-sm text-justify font-medium text-black/60 max-lg:line-clamp-[8]">

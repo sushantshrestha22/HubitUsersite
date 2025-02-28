@@ -20,7 +20,10 @@ const ContactForm = (props: Props) => {
   const onSubmit = handleSubmit((data: any) => console.log(data));
   return (
     <div className=" w-full">
-      <form onSubmit={onSubmit} className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <form
+        onSubmit={onSubmit}
+        className="grid grid-cols-1 lg:grid-cols-3 gap-4"
+      >
         <Input
           {...register("fullName")}
           type="text"
