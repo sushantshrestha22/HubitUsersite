@@ -58,3 +58,4 @@
 1. Herosection of Corporate Training Page
 2. Key Statistic Section of Corporate Training Page
 3. Training Running Section of Corporate Training Page
+4. Corporate Partners Section of Corporate Training Page
