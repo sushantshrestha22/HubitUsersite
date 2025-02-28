@@ -9,15 +9,15 @@ import { LocateIcon } from "lucide-react";
 import { FaLocationDot } from "react-icons/fa6";
 
 type Props = {};
-const TrainingRunning = (props: Props) => {
-  type TrainingCourseProps = {
+const UpcomingCorporateTraining = (props: Props) => {
+  type UpcomingCourseProps = {
     image: StaticImageData;
     title: string;
     duration: number;
     location: string;
   };
 
-  const trainingCourseData: TrainingCourseProps[] = [
+  const upcomingCourseData: UpcomingCourseProps[] = [
     {
       image: Course1,
       title: "Motion Graphics & Video Editing",
@@ -42,7 +42,7 @@ const TrainingRunning = (props: Props) => {
     <div className=" lg:px-36 p-10 space-y-10">
       <div className="w-full space-y-4 place-items-center">
         <h2 className="text-xl font-bold max-sm:text-center">
-          Training Running
+          Upcoming Corporate Training
         </h2>
         <p className="text-xs md:text-sm text-center text-black/60  max-lg:line-clamp-[8] w-[75%]">
           "We provide industry-focused IT training with expert-led courses,
@@ -53,7 +53,7 @@ const TrainingRunning = (props: Props) => {
       </div>
       <div className="space-y-5 lg:space-y-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10">
-          {trainingCourseData.map((data, index) => (
+          {upcomingCourseData.map((data, index) => (
             <div
               key={index}
               className={`w-full place-content-center place-items-center`}
@@ -96,4 +96,4 @@ const TrainingRunning = (props: Props) => {
   );
 };
 
-export default TrainingRunning;
+export default UpcomingCorporateTraining;

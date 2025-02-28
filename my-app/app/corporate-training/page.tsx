@@ -3,6 +3,7 @@ import CorporateHerosection from "@/components/pages/corporate-training/corporat
 import CorporateKeyStatistics from "@/components/pages/corporate-training/corporatekeystatistics";
 import CorporatePartnerSection from "@/components/pages/corporate-training/corporatepartners";
 import TrainingRunning from "@/components/pages/corporate-training/trainingrunning";
+import UpcomingCorporateTraining from "@/components/pages/corporate-training/upcomingcorporatetraining";
 import React from "react";
 
 type Props = {};
@@ -20,6 +21,7 @@ const CorporateTraining = (props: Props) => {
       <CorporateKeyStatistics />
       <TrainingRunning />
       <CorporatePartnerSection />
+      <UpcomingCorporateTraining />
     </div>
   );
 };
