@@ -1,5 +1,7 @@
 import PageHerosection from "@/components/pages/common/pageherosection";
 import CorporateHerosection from "@/components/pages/corporate-training/corporateherosection";
+import CorporateKeyStatistics from "@/components/pages/corporate-training/corporatekeystatistics";
+import TrainingRunning from "@/components/pages/corporate-training/trainingrunning";
 import React from "react";
 
 type Props = {};
@@ -14,6 +16,8 @@ const CorporateTraining = (props: Props) => {
         link2="#"
       />
       <CorporateHerosection />
+      <CorporateKeyStatistics />
+      <TrainingRunning />
     </div>
   );
 };

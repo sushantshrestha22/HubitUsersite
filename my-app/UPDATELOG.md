@@ -55,4 +55,5 @@
 2. TeamSection, QuickCall, StudentTestimonialSection Section of Service Page
 
 # HUB IT UserSite 2025 Feb 28
-1. Herosection of Corporate Training
+1. Herosection of Corporate Training Page
+2. Key Statistic Section of Corporate Training Page
