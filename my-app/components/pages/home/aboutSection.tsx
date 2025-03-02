@@ -86,11 +86,10 @@ const AboutSection = (props: Props) => {
               <Button size="lg">Explore More</Button>
             </Link>
             <Link href="/about">
-            <Button size="lg" variant="ghost">
-              See More
-            </Button>
+              <Button size="lg" variant="ghost">
+                See More
+              </Button>
             </Link>
-            
           </div>
         </div>
       </div>

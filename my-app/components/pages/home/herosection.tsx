@@ -4,8 +4,6 @@ import React from "react";
 type Props = {};
 
 const HeroSection = (props: Props) => {
-
-
   return (
     <div className="w-full lg:h-[80vh] md:h-[40vh] relative ">
       <div className="relative bg-herosection text-secondary bg-cover bg-no-repeat bg-center h-full max-sm:py-10 flex items-center">
@@ -22,12 +20,11 @@ const HeroSection = (props: Props) => {
           <div className="max-sm:space-y-4  md:space-x-4 ">
             <Button size="lg">Online Admission</Button>
             <Button size="lg" variant="secondary">
-              Get Started
+              Explore More
             </Button>
           </div>
         </div>
       </div>
-    
     </div>
   );
 };
