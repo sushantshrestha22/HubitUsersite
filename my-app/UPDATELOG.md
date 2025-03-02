@@ -77,4 +77,5 @@
 3. Contact Form of Contact Page
 4. Frequently Asked Questions of Contact Page
 5. Service Page Updated.
-6. SuccessFul Stories Page.
+6. Successful Stories Page.
+7. Successful Stories Individual description Section.

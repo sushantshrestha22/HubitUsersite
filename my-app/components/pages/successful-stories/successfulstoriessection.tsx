@@ -13,6 +13,7 @@ const SuccessfulStoriesSection = (props: Props) => {
     designation: string;
     placement: string;
   };
+  
   const courseData: CourseProps[] = [
     {
       image: TeamMember,
