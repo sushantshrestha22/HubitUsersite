@@ -96,11 +96,11 @@ const StudentEnrollmentForm = (props: Props) => {
         <div>
           <Label htmlFor="gender">Gender</Label>
 
-          <Select  onValueChange={(value) => setValue("gender", value)}>
+          <Select onValueChange={(value) => setValue("gender", value)}>
             <SelectTrigger className="h-12 bg-background" id="gender">
               <SelectValue placeholder="Select a gender" />
             </SelectTrigger>
-            <SelectContent className="bg-background text-accent"  >
+            <SelectContent className="bg-background text-accent">
               <SelectGroup>
                 <SelectLabel>Gender</SelectLabel>
                 <SelectItem value="male">Male</SelectItem>
@@ -161,7 +161,7 @@ const StudentEnrollmentForm = (props: Props) => {
             className="h-12 bg-background text-accent"
           />
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 col-span-2">
           <Input
             {...register("termsAndConditions")}
             type="checkbox"
@@ -171,11 +171,9 @@ const StudentEnrollmentForm = (props: Props) => {
           <Label htmlFor="termsAndConditions">Terms and Conditions</Label>
         </div>
 
-        <div className="flex justify-end">
-          <Button type="submit" size="lg" className="h-12  ">
-            Submit
-          </Button>
-        </div>
+        <Button type="submit"  className="h-12 w-full col-span-2 ">
+          Submit
+        </Button>
       </form>
     </div>
   );

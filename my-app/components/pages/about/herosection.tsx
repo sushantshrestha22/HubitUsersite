@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import AboutImage from "@/app/assets/image/aboutSection.png";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 type Props = {};
 
@@ -32,10 +33,9 @@ const AboutHeroSection = (props: Props) => {
             age.
           </p>
           <div className="md:space-x-4 max-md:space-y-4">
-            <Button size="lg">Get Started</Button>
-            <Button size="lg" variant="ghost">
-              See More
-            </Button>
+            <Link href="/courses">
+            <Button size="lg">Explore More</Button>
+            </Link>
           </div>
         </div>
       </div>

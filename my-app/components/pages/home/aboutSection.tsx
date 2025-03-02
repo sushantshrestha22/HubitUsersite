@@ -3,6 +3,7 @@ import React from "react";
 import AboutImage from "@/app/assets/image/aboutSection.png";
 import { Button } from "@/components/ui/button";
 import { FaPlus } from "react-icons/fa";
+import Link from "next/link";
 
 type Props = {};
 
@@ -81,10 +82,15 @@ const AboutSection = (props: Props) => {
             age.
           </p>
           <div className="md:space-x-4 max-md:space-y-4">
-            <Button size="lg">Get Started</Button>
+            <Link href="/courses">
+              <Button size="lg">Explore More</Button>
+            </Link>
+            <Link href="/about">
             <Button size="lg" variant="ghost">
               See More
             </Button>
+            </Link>
+            
           </div>
         </div>
       </div>

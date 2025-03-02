@@ -82,12 +82,12 @@ const Footer = (props: Props) => {
       link: "/placements",
     },
     {
-      title: "Services",
-      link: "/services",
+      title: "Contact",
+      link: "/contact",
     },
     {
-      title: "Corporate Training",
-      link: "/corporate-training",
+      title: "Job Application",
+      link: "/job-application",
     },
   ];
 

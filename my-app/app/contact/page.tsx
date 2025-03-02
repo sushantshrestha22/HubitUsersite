@@ -9,7 +9,7 @@ type Props = {};
 const Contact = (props: Props) => {
   return (
     <div>
-      <PageHerosection title1="Home" title2="Contact" link1="#" link2="#" />
+      <PageHerosection title1="Home" title2="Admission Form" link1="#" link2="#" />
       <StudentEnrollmentForm />
       <QuickCall />
       <StudentTestimonialSection />

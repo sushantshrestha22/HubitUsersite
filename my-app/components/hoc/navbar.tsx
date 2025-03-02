@@ -56,6 +56,10 @@ const Navbar = (props: Props) => {
       href: "/corporate-training",
     },
     // {
+    //   name: "Contact Us",
+    //   href: "/contact",
+    // },
+    // {
     //   name: "Get Involved",
     //   href: "/get-involved",
     //   dropdown: [
