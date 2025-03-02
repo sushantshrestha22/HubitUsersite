@@ -74,8 +74,8 @@ const Footer = (props: Props) => {
       link: "/about",
     },
     {
-      title: "Courses",
-      link: "/courses",
+      title: "Successful Stories",
+      link: "/successful-stories",
     },
     {
       title: "Contact",

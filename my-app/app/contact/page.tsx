@@ -1,8 +1,7 @@
-import StudentEnrollmentForm from "@/components/form/studentenrollment/form";
 import PageHerosection from "@/components/pages/common/pageherosection";
-import ContactSection from "@/components/pages/contact/enrollment";
-import QuickCall from "@/components/pages/home/quickcall";
-import StudentTestimonialSection from "@/components/pages/home/studenttestimonialsection";
+import ContactSection from "@/components/pages/contact/contactsection";
+import FaqsSection from "@/components/pages/contact/faqssection";
+
 import React from "react";
 
 type Props = {};
@@ -12,8 +11,7 @@ const Contact = (props: Props) => {
     <div>
       <PageHerosection title1="Home" title2="Contact" link1="#" link2="#" />
       <ContactSection />
-      {/* <QuickCall />
-      <StudentTestimonialSection /> */}
+      <FaqsSection />
     </div>
   );
 };

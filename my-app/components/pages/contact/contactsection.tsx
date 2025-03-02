@@ -15,6 +15,7 @@ const ContactSection = (props: Props) => {
     icon?: JSX.Element | string;
     value: string;
   };
+
   type SocialMedia = {
     icon: JSX.Element;
     url: string;
@@ -41,7 +42,7 @@ const ContactSection = (props: Props) => {
   const contacts: Contact[] = [
     {
       icon: <FaPhoneAlt />,
-      value: "079-520123,9868595584",
+      value: "079-520123, 9868595584",
     },
     {
       icon: <IoMail />,
