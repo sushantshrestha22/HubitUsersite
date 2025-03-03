@@ -84,3 +84,4 @@
 # HUB IT UserSite 2025 March 2
 1. Explore Other Section of Individual description Page.
 2. Description Section of Individual Course Description Page
+3. Explore Other Courses Section of Individual Course Description Page
