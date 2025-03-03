@@ -7,7 +7,7 @@ type Props = {};
 
 const DescriptionSection = (props: Props) => {
   return (
-    <div className="lg:px-36 p-10 space-y-10">
+    <div className="lg:px-36 p-10 space-y-10 bg-secondary">
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 max-sm:place-items-center">
         <div className="max-sm:place-items-center max-sm:col-span-2">
           <Image

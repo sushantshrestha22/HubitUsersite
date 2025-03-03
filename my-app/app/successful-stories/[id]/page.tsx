@@ -1,5 +1,6 @@
 import PageHerosection from "@/components/pages/common/pageherosection";
 import DescriptionSection from "@/components/pages/storiesdescription/descriptionsection";
+import ExploreOther from "@/components/pages/storiesdescription/exploreother";
 import React from "react";
 
 type Props = {};
@@ -14,6 +15,7 @@ const SuccessfulStoriesDescription = (props: Props) => {
         link2="#"
       />
       <DescriptionSection />
+      <ExploreOther />
     </div>
   );
 };

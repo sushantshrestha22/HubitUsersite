@@ -79,3 +79,7 @@
 5. Service Page Updated.
 6. Successful Stories Page.
 7. Successful Stories Individual description Section.
+
+<!-- submitted -->
+# HUB IT UserSite 2025 March 2
+1. Explore Other Section of Individual description Page.
