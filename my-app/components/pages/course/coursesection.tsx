@@ -84,9 +84,9 @@ const CourseSection = (props: Props) => {
             </div>
           ))}
         </div>
-        <div className="w-full text-center col-span-3 ">
+        {/* <div className="w-full text-center col-span-3 ">
           <PaginatedItems />
-        </div>
+        </div> */}
       </div>
     </div>
   );
