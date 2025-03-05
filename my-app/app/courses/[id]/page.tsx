@@ -5,10 +5,12 @@ import QuickCall from "@/components/pages/home/quickcall";
 import StudentTestimonialSection from "@/components/pages/home/studenttestimonialsection";
 import React from "react";
 
-type Props = {};
+type Params = {
+  id: string;
+};
 
-const IndividualCourse = (props: Props) => {
-  return (
+const IndividualCourse = (params: Params) => {
+;  return (
     <div>
       <PageHerosection title1="Home" title2="Courses" link1="#" link2="#" />
       <IndividualDescription />

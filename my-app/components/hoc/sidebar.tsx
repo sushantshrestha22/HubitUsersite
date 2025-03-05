@@ -103,7 +103,7 @@ const AppSidebar: React.FC = () => {
     // },
   ];
   const pathname: string = usePathname();
-  console.log(pathname);
+  // console.log(pathname);
 
   return (
     <Sheet>

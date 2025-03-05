@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Course1 from "@/app/assets/image/motiongraphics.png";
-import { RiMapPinUserFill, RiVerifiedBadgeFill } from "react-icons/ri";
 import { GoClockFill } from "react-icons/go";
 
-type Props = {};
 
-const IndividualDescription = (props: Props) => {
+
+const IndividualDescription = () => {
   return (
     <div className="lg:px-36 p-10 space-y-10 bg-secondary">
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 max-sm:place-items-center">
@@ -21,7 +20,7 @@ const IndividualDescription = (props: Props) => {
           <div className=" p-4 lg:px-10 bg-gradient-to-r from-primary to-accent text-secondary rounded flex items-center justify-between">
             <h1>Sushant Shrestha</h1>
             <div className="flex items-center gap-2 text-xs lg:text-sm font-semibold  text-secondary">
-              <GoClockFill  className=" h-4 w-4" />
+              <GoClockFill className=" h-4 w-4" />
               <span>3 months</span>
             </div>
           </div>

@@ -3,9 +3,9 @@ import DescriptionSection from "@/components/pages/storiesdescription/descriptio
 import ExploreOther from "@/components/pages/storiesdescription/exploreother";
 import React from "react";
 
-type Props = {};
 
-const SuccessfulStoriesDescription = (props: Props) => {
+
+const SuccessfulStoriesDescription = () => {
   return (
     <div>
       <PageHerosection

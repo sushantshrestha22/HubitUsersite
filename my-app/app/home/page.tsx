@@ -7,18 +7,20 @@ import QuickCall from "@/components/pages/home/quickcall";
 import StudentTestimonialSection from "@/components/pages/home/studenttestimonialsection";
 import SuccessfulSection from "@/components/pages/home/successfulsection";
 import Weprovide from "@/components/pages/home/weprovide";
+import { fetchData } from "@/lib/query/query";
 import React from "react";
 
 type Props = {};
 
-const Home = (props: Props) => {
+const Home = async (props: Props) => {
+  const courseData = await fetchData(`/courses`);
   return (
     <div>
       <HeroSection />
       <AboutSection />
-      <Course />
+      <Course courses={courseData?.result} />
       <Weprovide />
-      <DiscountSection/>
+      <DiscountSection />
       <PartnerSection />
       <SuccessfulSection />
       <QuickCall />

@@ -7,9 +7,11 @@ import ResponsivePagination from "react-responsive-pagination";
 import "react-responsive-pagination/themes/classic.css";
 
 import CourseNav from "./coursenav";
+import Link from "next/link";
 
 type Props = {
   courses: {
+    id: string;
     title: string;
     duration: string;
     image: string;
@@ -28,6 +30,7 @@ const CourseSection = (props: Props) => {
   const currentCourses = courses.slice(startIndex, endIndex);
 
   type FormData = {
+    id: string;
     title: string;
     duration: string;
     image: string;
@@ -45,33 +48,35 @@ const CourseSection = (props: Props) => {
               key={index}
               className={`w-full place-content-center place-items-center`}
             >
-              <div className={``}>
-                <div>
-                  {data?.image === "undefined" ? (
-                    <Image
-                      src={Course1}
-                      alt="errorImage"
-                      className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
-                    />
-                  ) : (
-                    <img
-                      src={`${data?.image}`}
-                      alt="errorImage"
-                      className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
-                    />
-                  )}
-                </div>
-                <div className=" p-4 border rounded-b-md bg-background space-y-2">
-                  <div className="text-xs lg:text-sm font-semibold">
-                    {data.title}
+              <Link href={`/courses/${data.id}`}>
+                <div className={``}>
+                  <div>
+                    {data?.image === "undefined" ? (
+                      <Image
+                        src={Course1}
+                        alt="errorImage"
+                        className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
+                      />
+                    ) : (
+                      <img
+                        src={`${data?.image}`}
+                        alt="errorImage"
+                        className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
+                      />
+                    )}
                   </div>
-                  <div className="flex items-center gap-2 text-xs lg:text-sm">
-                    {" "}
-                    <FaClock className="text-primary" />
-                    {data.duration}
+                  <div className=" p-4 border rounded-b-md bg-background space-y-2">
+                    <div className="text-xs lg:text-sm font-semibold">
+                      {data.title}
+                    </div>
+                    <div className="flex items-center gap-2 text-xs lg:text-sm">
+                      {" "}
+                      <FaClock className="text-primary" />
+                      {data.duration}
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>

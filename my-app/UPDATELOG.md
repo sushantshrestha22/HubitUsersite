@@ -97,3 +97,4 @@
 
 1. Pagination setup done.
 2. Course Section of Course Page updated.
+3. Course Section of Home Page updated.
