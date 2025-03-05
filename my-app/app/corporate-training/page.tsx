@@ -6,6 +6,7 @@ import TrainingRunning from "@/components/pages/corporate-training/trainingrunni
 import UpcomingCorporateTraining from "@/components/pages/corporate-training/upcomingcorporatetraining";
 import QuickCall from "@/components/pages/home/quickcall";
 import StudentTestimonialSection from "@/components/pages/home/studenttestimonialsection";
+import TrainingService from "@/components/pages/services/trainingservice";
 import React from "react";
 
 type Props = {};
@@ -19,7 +20,9 @@ const CorporateTraining = (props: Props) => {
         link1="#"
         link2="#"
       />
-      <CorporateHerosection />
+      {/* <CorporateHerosection /> */}
+      <TrainingService />
+
       <CorporateKeyStatistics />
       <TrainingRunning />
       <CorporatePartnerSection />

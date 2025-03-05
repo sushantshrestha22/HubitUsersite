@@ -14,17 +14,17 @@ const TrainingService = (props: Props) => {
 
   const courseData: CourseProps[] = [
     {
-      title: "Graphics Designing",
+      title: "On-site",
     },
     {
-      title: "Web Development",
+      title: "Line-On -Line",
     },
 
     {
-      title: "App Development",
+      title: "Blended Learning",
     },
     {
-      title: "UI/UX Designing",
+      title: "Self-Paced Learning",
     },
   ];
 

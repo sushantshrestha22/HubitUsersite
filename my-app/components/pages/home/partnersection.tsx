@@ -52,7 +52,7 @@ export default function PartnerSection() {
       <Marquee className="px-10 lg:px-36" speed={50} pauseOnHover={true}>
         <div className="grid grid-cols-6 gap-10 px-5">
           {partners.map((partner, index) => (
-            <div className="flex ">
+            <div className="flex " key={index}>
               <Image
                 key={index}
                 src={partner.logo}
