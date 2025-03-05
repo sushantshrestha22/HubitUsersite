@@ -13,8 +13,8 @@ const CoursePage = async (props: Props) => {
   return (
     <div>
       <PageHerosection title1="Home" title2="Course" link1="#" link2="#" />
-      {/* <CourseSection /> */}
-      <Pagination courses={courseData?.result} />
+      <CourseSection courses={courseData?.result} />
+      {/* <Pagination courses={courseData?.result} /> */}
       <QuickCall />
       <StudentTestimonialSection />
     </div>

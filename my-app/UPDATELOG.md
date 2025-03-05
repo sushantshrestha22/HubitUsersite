@@ -96,3 +96,4 @@
 # HUB IT UserSite 2025 March 5
 
 1. Pagination setup done.
+2. Course Section of Course Page updated.
