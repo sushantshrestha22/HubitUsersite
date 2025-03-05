@@ -6,9 +6,10 @@ import Image from "next/image";
 import Logo from "@/app/assets/image/logo.png";
 import Link from "next/link";
 import GetInTouchForm from "../form/getintouch/form";
+import { fetchData } from "@/lib/query/query";
 type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = async(props: Props) => {
   type Contact = {
     icon?: JSX.Element | string;
     value: string;
@@ -23,18 +24,20 @@ const Footer = (props: Props) => {
     link: string;
   };
 
+  const contact = await fetchData("contact");
+
   const contacts: Contact[] = [
     {
       icon: <FaPhoneAlt />,
-      value: "079-520123,9868595584",
+      value: `${contact?.result[0]?.phone}`,
     },
     {
       icon: <IoMail />,
-      value: "traininghubit@gmail.com",
+      value: `${contact?.result[0]?.email}`,
     },
     {
       icon: <FaLocationDot />,
-      value: "Finance Chowk-8, Butwal",
+      value: `${contact?.result[0]?.address}`,
     },
   ];
 

@@ -85,7 +85,6 @@ const Navbar = async (props: Props) => {
   ];
 
   const contact = await fetchData("contact");
-  console.log(contact.result[0]);
 
   return (
     <div className="relative w-full md:space-y-3 py-3 place-content-center place-items-end ">
