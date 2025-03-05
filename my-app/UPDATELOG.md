@@ -98,3 +98,5 @@
 1. Pagination setup done.
 2. Course Section of Course Page updated.
 3. Course Section of Home Page updated.
+4. Course Description of Individual Course Page Updated.
+5. Explore Course Section of Individual Course Page Updated.

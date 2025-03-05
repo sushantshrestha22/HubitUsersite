@@ -16,11 +16,6 @@ type Props = {
 };
 
 const Course = (props: Props) => {
-  type CourseProps = {
-    image: StaticImageData;
-    title: string;
-    duration: number;
-  };
 
   return (
     <div className="bg-secondary lg:px-36 p-10 space-y-10">
@@ -48,13 +43,13 @@ const Course = (props: Props) => {
                     <Image
                       src={Course1}
                       alt="errorImage"
-                      className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
+                      className="object-cover w-full h-32 md:h-40 lg:h-56 object-no-repeat object-center"
                     />
                   ) : (
                     <img
                       src={`${data?.image}`}
                       alt="errorImage"
-                      className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
+                      className="object-cover w-full h-32 md:h-40 lg:h-56 object-no-repeat object-center"
                     />
                   )}
                 </div>

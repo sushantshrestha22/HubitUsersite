@@ -55,13 +55,13 @@ const CourseSection = (props: Props) => {
                       <Image
                         src={Course1}
                         alt="errorImage"
-                        className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
+                        className="object-cover w-full h-32 md:h-40 lg:h-56 object-no-repeat object-center"
                       />
                     ) : (
                       <img
                         src={`${data?.image}`}
                         alt="errorImage"
-                        className="bg-cover w-full h-32 md:h-40 lg:h-56 bg-no-repeat"
+                        className="object-cover w-full h-32 md:h-40 lg:h-56 object-no-repeat object-center"
                       />
                     )}
                   </div>
