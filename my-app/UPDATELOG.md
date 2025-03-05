@@ -100,3 +100,4 @@
 3. Course Section of Home Page updated.
 4. Course Description of Individual Course Page Updated.
 5. Explore Course Section of Individual Course Page Updated.
+6. Navbar updated.
