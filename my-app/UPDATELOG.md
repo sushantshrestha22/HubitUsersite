@@ -103,3 +103,7 @@
 6. Navbar updated.
 7. Footer updated.
 8. Service and corporate training managed.
+
+# HUB IT UserSite 2025 March 6
+
+1. Our Team Page done.
