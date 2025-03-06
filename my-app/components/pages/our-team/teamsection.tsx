@@ -108,6 +108,7 @@ const OurTeamSection = (props: Props) => {
 
   return (
     <div className="lg:px-36 p-10 space-y-10">
+      {/* Top management */}
       <div className="space-y-10">
         {" "}
         <div className="w-full place-items-center ">
@@ -187,7 +188,7 @@ const OurTeamSection = (props: Props) => {
         </div>
       </div>
 
-      {/* development team */}
+      {/* Development team */}
       <div className="space-y-10">
         {" "}
         <div className="w-full place-items-center ">

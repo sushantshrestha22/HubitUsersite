@@ -8,15 +8,51 @@ import { Button } from "@/components/ui/button";
 import { FaLocationDot } from "react-icons/fa6";
 
 type Props = {};
-const TrainingRunning = (props: Props) => {
-  type TrainingCourseProps = {
+const UpcomingTraining = (props: Props) => {
+  type UpcomingCourseProps = {
     image: StaticImageData;
     title: string;
     duration: number;
     location: string;
   };
 
-  const trainingCourseData: TrainingCourseProps[] = [
+  const upcomingCourseData: UpcomingCourseProps[] = [
+    {
+      image: Course1,
+      title: "Motion Graphics & Video Editing",
+      duration: 10,
+      location: "Crimson Technical College",
+    },
+    {
+      image: Course2,
+      title: "Web-Development & Designing",
+      duration: 10,
+      location: "Crimson Technical College",
+    },
+    {
+      image: Course3,
+      title: "React,Node.js & Nest.js",
+      duration: 10,
+      location: "Crimson Technical College",
+    },
+    {
+      image: Course1,
+      title: "Motion Graphics & Video Editing",
+      duration: 10,
+      location: "Crimson Technical College",
+    },
+    {
+      image: Course2,
+      title: "Web-Development & Designing",
+      duration: 10,
+      location: "Crimson Technical College",
+    },
+    {
+      image: Course3,
+      title: "React,Node.js & Nest.js",
+      duration: 10,
+      location: "Crimson Technical College",
+    },
     {
       image: Course1,
       title: "Motion Graphics & Video Editing",
@@ -39,20 +75,10 @@ const TrainingRunning = (props: Props) => {
 
   return (
     <div className=" lg:px-36 p-10 space-y-10">
-      <div className="w-full space-y-4 place-items-center">
-        <h2 className="text-xl font-bold max-sm:text-center">
-          Training Running
-        </h2>
-        <p className="text-xs md:text-sm text-center text-black/60  max-lg:line-clamp-[8] w-[75%]">
-          "We provide industry-focused IT training with expert-led courses,
-          hands-on projects, and globally recognized certifications to boost
-          your career. Our programs are designed to equip you with in-demand
-          skills and real-world experience."
-        </p>
-      </div>
+     
       <div className="space-y-5 lg:space-y-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10">
-          {trainingCourseData.map((data, index) => (
+          {upcomingCourseData.map((data, index) => (
             <div
               key={index}
               className={`w-full place-content-center place-items-center`}
@@ -85,14 +111,10 @@ const TrainingRunning = (props: Props) => {
             </div>
           ))}
         </div>
-        <div className="w-full text-end col-span-3">
-          <Button size="lg" variant="ghost">
-            See More
-          </Button>
-        </div>
+        
       </div>
     </div>
   );
 };
 
-export default TrainingRunning;
+export default UpcomingTraining;
